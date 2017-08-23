@@ -1,0 +1,4 @@
+
+python ostu.py in.jpg ostu.jpg
+javac BlackAndWhiteConverter.java
+java BlackAndWhiteConverter in.jpg our_converter.jpg
