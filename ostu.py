@@ -1,6 +1,6 @@
 
 # Ostu's Algorithm For Binarization
-# Call python grayScale.py File_Name
+# Call python ostu.py File_Name
 
 import os
 import sys
@@ -19,7 +19,7 @@ ret3,th3 = cv2.threshold(img,0,255,cv2.THRESH_BINARY+cv2.THRESH_OTSU)
 
 #cv2.imwrite("median.jpg", th1)
 #cv2.imwrite("gauss.jpg", th2)
-cv2.imwrite("original.jpg", th3)
+cv2.imwrite(sys.argv[2], th3)
 
 
 
