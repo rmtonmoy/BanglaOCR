@@ -1,5 +1,5 @@
 # Ostu's Algorithm For Binarization
-# Call python ostu.py INPUT_FILE_PATH OUTPUT_FILE_PATH
+# Call python otsu.py INPUT_FILE_PATH OUTPUT_FILE_PATH
 
 import os
 import sys
